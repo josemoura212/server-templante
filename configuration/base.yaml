@@ -1,0 +1,16 @@
+application:
+  port: 6165
+  hmac_secret: "super-long-and-secret-random-key-18547-ify-message-integrity-catiau"
+database:
+  host: localhost
+  port: 2345
+  username: postgres
+  password: password
+  database_name: { { project-name } }
+email_client:
+  base_url: localhost
+  sender_email: admin@localhost
+  authorization_token: "my-token-postmark"
+  timeout_milliseconds: 10000
+redis_uri: "redis://127.0.0.1:7000"
+file_path: "C:\\Projetos"

@@ -1,0 +1,8 @@
+application:
+  host: 0.0.0.0
+  base_url: https://{{project-name}}.com.br
+database:
+  require_ssl: true
+email_client:
+  base_url: "https://api.postmarkapp.com"
+  sender_email: "contact@{{project-name}}.com.br"
