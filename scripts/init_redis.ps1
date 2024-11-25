@@ -11,6 +11,7 @@ docker run `
 -p "7000:6379" `
 -d `
 --restart "always" `
+-e REDIS_PASSWORD="{{project-name}}" `
 -v redis_data:/bitnami/redis/data `
 bitnami/redis:latest
 
